@@ -29,6 +29,7 @@ gem 'spring',        group: :development
 gem 'faker', github: 'stympy/faker'
 gem 'rack-contrib'
 gem 'soulmate', :require => 'soulmate/server'
+gem 'redis'
 
 group :production do
 	gem 'pg'
